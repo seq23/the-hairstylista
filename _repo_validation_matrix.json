@@ -1,0 +1,24 @@
+{
+  "repo_name": "the-hairstylista-site",
+  "complexity_level": 1,
+  "checks": [
+    {
+      "name": "validate_static_content",
+      "command": "npm run validate",
+      "severity": "HARD FAIL",
+      "purpose": "Verifies required copy, assets, anchors, gallery count, animation support, and no env references."
+    },
+    {
+      "name": "static_build",
+      "command": "npm run build",
+      "severity": "HARD FAIL",
+      "purpose": "Copies static deployable files into dist for Cloudflare Pages."
+    },
+    {
+      "name": "local_browser_visual_proof",
+      "command": "NOT APPLICABLE IN CONTAINER",
+      "severity": "INFO",
+      "purpose": "Optional human/browser review after deploying or opening the site locally."
+    }
+  ]
+}

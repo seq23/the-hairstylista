@@ -1,0 +1,13 @@
+{
+  "repo_name": "the-hairstylista-site",
+  "mode": "generic",
+  "complexity_level": 1,
+  "source_of_truth": "baseline_zip",
+  "requires_env_vars": false,
+  "requires_auth_state": false,
+  "requires_database": false,
+  "build_command": "npm run build",
+  "output_directory": "dist",
+  "prepush_command": "npm run release:prepush:container",
+  "deployment_target": "cloudflare_pages"
+}

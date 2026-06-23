@@ -1,0 +1,15 @@
+{
+  "repo_name": "the-hairstylista-site",
+  "complexity_level": 1,
+  "artifact_status": "STRUCTURALLY CHECKED — LOCAL VALIDATION REQUIRED",
+  "source_tree_fingerprint": "06fb08ac030518d07422cd39c6be1756115f402519c6f742cc44af3ad45c9c73",
+  "profile": "container",
+  "release_prepush_container": "PASSED",
+  "static_validate": "PASSED",
+  "build": "PASSED",
+  "local_browser_visual_proof": "NOT_EXECUTED",
+  "env_vars_required": false,
+  "auth_required": false,
+  "database_required": false,
+  "generated_at": "2026-06-23T21:39:51Z"
+}

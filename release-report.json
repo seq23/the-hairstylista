@@ -1,0 +1,29 @@
+{
+  "repo": "the-hairstylista-site",
+  "status": "STRUCTURALLY CHECKED \u2014 LOCAL VALIDATION REQUIRED",
+  "complexity": "LEVEL 1",
+  "changes": [
+    "Replaced salon section copy with appointment-only salon atmosphere copy.",
+    "Moved U-part wig image into signature U-part feature section.",
+    "Removed U-part image from gallery.",
+    "Removed smaller salon peek image from hero next to Nia headshot.",
+    "Upgraded final block into appointment experience card set.",
+    "Added 05 card for braided styles for men and women.",
+    "Added npm run dev for localhost preview.",
+    "Added uploaded @thehairstylista promo image back into the gallery as the 12th item.",
+    "Added uploaded @thehairstylista promo image into the gallery as the 12th total gallery item.",
+    "Updated salon atmosphere copy to emphasize children being welcomed, relaxed/inviting appointment energy, snack breaks, phone calls, and fun party-with-friends feeling.",
+    "Moved Nia headshot into the Meet Nia section.",
+    "Replaced hero/top visual with the approved salon image.",
+    "Removed the gallery/promo image from the top hero visual; it remains only in the gallery.",
+    "Added visible 05 Braided Styles card to the Services section.",
+    "Replaced the duplicate final gallery image with the newly uploaded promo image."
+  ],
+  "validation": [
+    "npm run validate passed",
+    "npm run build passed",
+    "ZIP integrity check passed",
+    "Reopened ZIP file presence check passed"
+  ],
+  "generated_at": "2026-06-23T22:03:35"
+}

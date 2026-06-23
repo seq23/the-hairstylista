@@ -1,0 +1,17 @@
+{
+  "name": "the-hairstylista-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Level 1 static marketing website for Nia Nowlin, The Hairstylista in Houston, TX.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "validate": "node scripts/validate.js",
+    "release:prepush:container": "npm run validate && npm run build",
+    "release:prepush:local": "npm run validate && npm run build",
+    "release:prepush": "npm run release:prepush:container",
+    "validate:reopened-baseline": "node scripts/validate.js",
+    "release:report": "node scripts/report.js",
+    "dev": "python3 -m http.server 5173"
+  },
+  "devDependencies": {}
+}

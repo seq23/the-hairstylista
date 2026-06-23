@@ -1,0 +1,15 @@
+{
+  "repo_name": "the-hairstylista-site",
+  "browser_surface": true,
+  "public_routes": true,
+  "authentication": false,
+  "role_specific_states": false,
+  "tenant_or_event_isolation": false,
+  "container_prepush_command": "npm run release:prepush:container",
+  "local_prepush_command": "npm run release:prepush:local",
+  "local_browser_proof_command": "Open dist/index.html or deployed Cloudflare URL for visual review",
+  "live_proof_command": "NOT APPLICABLE — no persistence or provider integration",
+  "cleanup_command": "NOT APPLICABLE — no fixtures created",
+  "evidence_root": "artifacts/diagnostics if local browser evidence is later generated",
+  "completion_requirements": ["static validation", "build", "zip integrity", "root structure verification"]
+}
